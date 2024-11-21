@@ -1,0 +1,233 @@
+html, body{width: 100%; height: 100%; min-height: 1180px;  margin: 0; padding: 0; font-family: 'Saira', sans-serif}
+p{letter-spacing: 0.75px;  line-height: 25px;}
+nav{display: block; width: 100%; height: 40px; margin: 0; position: fixed; vertical-align: top; background-color: rgb(10, 10, 10); z-index: 2; border-bottom-width: 1px; border-bottom-style: solid}
+.navul{display: inline-block; width: 100%; margin: 0;}
+.navli{display: inline;  margin-left: 2%; margin-right: 2%; margin-top: 0; margin-bottom: 0; line-height: 40px;}
+.navlix{display: none; margin-left: 2%; margin-right: 2%; margin-top: 0; margin-bottom: 0; line-height: 40px;}
+a.inactive{text-decoration: none; font-size: 1.5em; color: white;}
+a.inactive:hover{text-shadow: 1px 1px 1px  white; }
+a.inactive-dropdown1{text-decoration: none; font-size: 1.5em; color: white;}
+a.inactive-dropdown1:hover {text-shadow: 1px 1px 1px  white;}
+a.active-dropdown1{text-decoration: none; font-size: 1.5em; color: rgb(208,235,244);}
+a.active-dropdown1:hover {text-shadow: 1px 1px 1px  rgb(208,235,244);}
+a.inactive-dropdown2{text-decoration: none; font-size: 1.5em; color: white;}
+a.inactive-dropdown2:hover {text-shadow: 1px 1px 1px  white;}
+a.active-dropdown2{text-decoration: none; font-size: 1.5em; color: rgb(208,235,244);}
+a.active-dropdown2:hover {text-shadow: 1px 1px 1px  rgb(208,235,244);}
+
+a.droplink1s{font-size: 1em; display: none; text-decoration: none; color: black; }
+a.droplink1s:hover{text-shadow: 1px 1px 1px   black;}
+a.droplink2s{font-size: 1em; text-decoration: none; display: none; color: black; }
+a.droplink2s:hover{text-shadow: 1px 1px 1px   black;}
+a.active{text-decoration: none; font-size: 1.5em; color: rgb(208,235,244);}
+a.active:hover{text-shadow: 1px 1px 1px  white;}
+.dropdown{width: 100%; height: 60px; background-color: rgb(208,235,244); box-shadow: 1px 1px 4px black; position: fixed; display: block; z-index: 1; margin-top: 40px}
+a.droplink1{font-size: 1.3em; display: none; text-decoration: none; color: black; line-height: 60px; margin-left: 2%; margin-right: 2%}
+a.droplink1:hover{text-shadow: 1px 1px 1px   black;}
+a.droplink2{font-size: 1.3em; text-decoration: none; display: none; color: black; line-height: 60px; margin-left: 2%; margin-right: 2%}
+a.droplink2:hover{text-shadow: 1px 1px 1px   black;}
+h1{line-height: 60px; margin-top: 0; margin-bottom: 0; margin-left: 2%; font-family: 'Saira', sans-serif;}
+.hero{width: 100%; height: 450px; display: block; position: relative; background-color: rgba(0,0,0,0.55); margin: 0; z-index: 0; transform: translate3d(0px, 0px, 20px)}
+.herohead{margin: 0;   text-align: center; color: white; font-size: 3.8em; padding: 0; padding-bottom: 20px; }
+.herotext{margin: 0;  text-align: center; color: white; font-size: 2em; padding: 0; font-weight: normal}
+#herovid{position: fixed; min-width: 100%; min-height: 100%; z-index: 0; margin: 0; padding: 0}
+.core{width: 100%; height: 100%; margin: 0; display: block; position: relative; background-color: black; border-top-width: 1px; border-top-color: black; border-top-style: solid; transform: translate3d(0px, 0px, 20px)}
+.coremain{width: 70%; height: 100%; background-image: url(../images/corebg2.png); background-size: cover; margin: 0; padding: 0; display: inline-block; vertical-align: top; overflow-y: hidden}
+.coremain2{width: 100%; height: 100%; background-image: url(../images/corebg2.png); background-size: cover; margin: 0; padding: 0; display: block; vertical-align: top; overflow-y: hidden}
+.coreside{width: 100%; min-width: 300px; height: 100%;background-color: rgba(0,0,0,0.4);background-size: cover; margin: 0; padding: 0; display: inline-block; vertical-align: top; z-index: 2;}
+.sidebox{width: 30%; min-width: 300px; height: 100%;  background-image: url(../images/sidebg.jpg);   margin: 0; padding: 0; display: inline-block; vertical-align: top; z-index: 1; }
+.maintitle{color: black; width: auto; margin: 0; display: inline-block; font-family: 'Saira', sans-serif; font-size: 4em; line-height: 30px; padding-top: 80px; margin-left: 60px}
+.maintext{padding-left: 40px;  font-size: 1.3em; width: 60%; max-width: 800px; letter-spacing: 0.75px;  line-height: 25px; margin: 0; display: inline-block; overflow:visible}
+.mainboxtext{  font-size: 1.3em; padding: 10px; width: 90%; letter-spacing: 0.75px;  line-height: 25px; color: white;  margin-right: 50px; display: inline-block; overflow:hidden}
+.mainboxcover{width: 60%; height: 100%; padding: 0; margin: 0; display: inline-block; overflow: visible}
+.mainbox{width: 80%; display: inline-block; height: 530px;  background-color: rgba(30, 34, 45,0.7); margin: 2%; box-shadow: 2px 2px 4px black}
+.sidetitle{color: white; width: auto; text-align: center; font-weight: bold; background-color: rgba(0,0,0,0.7); margin: 0;  font-size: 1.6em; padding-top: 15px; padding-bottom: 15px;  line-height: 30px; vertical-align: middle}
+.pastul{display: block; padding: 0; margin: auto; text-align: center; text-decoration: none; color: white; font-size: 1.2em; height: auto}
+    .pastli{display: block; margin: auto; margin-bottom: 30px; width: 300px; padding: 5px; background-color: rgba(0,0,0,0.7); border-radius: 10px}
+a.download{text-decoration: none; color: white;   width: auto; font-size: 1.4em; line-height: 30px; padding: 10px}
+a.download:hover{font-weight: bold;}
+.innertitle{padding: 0; padding-top: 10px; padding-bottom: 10px;   font-size: 1.8em; font-weight: bold; display: inline-block; vertical-align: top; color: white}
+footer{width: 100%; height: 60px; background-color: rgb(10, 10, 10); color: white; font-size: 1.4em; text-align: center; line-height: 60px; bottom: 0;z-index: 0}
+a.menu
+{width: 40px;
+    display: none;
+height: 40px;
+background-image: url(../images/menu.png); background-size: 100%; float: right}
+
+.profilebox{width: 98%; height: 99%; display: block; margin: 0; z-index: 3; overflow: hidden; color: white}
+.box1outer{height: 33%; width: 100%; margin: 10px; background-image: url(../images/portfolio.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.box2outer{height: 33%; width: 100%; margin: 10px; background-image: url(../images/strategy.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.box3outer{height: 33%; width: 100%; margin: 10px; background-image: url(../images/riskmgmt.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.box1{height: 100%; width: 100%; display: block;  background-color: rgba(0,0,0,0.7); box-shadow: 2px 2px 4px black }
+.box2{height: 100%; width: 100%; display: block;   background-color: rgba(0,0,0,0.7); background-size: cover; box-shadow: 2px 2px 4px black  }
+.box3{height: 100%; width: 100%; display: block;   background-color: rgba(0,0,0,0.7); background-size: cover; box-shadow: 2px 2px 4px black }
+.boxtext{text-align: center; font-size: 1.2em; padding-left: 5%; padding-right: 5%}
+.boxtitle{text-align: center; margin: 0; font-size: 2em;  padding-top: 25%;}
+.box1outer1{height: 33%; width: 100%; margin: 10px; background-image: url(../images/securities.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.box2outer2{height: 33%; width: 100%; margin: 10px; background-image: url(../images/portfoliomgmt.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.box3outer3{height: 33%; width: 100%; margin: 10px; background-image: url(../images/algorithms.jpg); background-size: cover;  z-index: 3; box-shadow: 2px 2px 4px black}
+.imgwrapper{height: 100%; max-width: 400px;  display: inline-block; float: right;  margin: 0; vertical-align: top;    width: 40%; background-color: rgb(30,30,30); color: white; font-weight: bold; text-align: center; position: relative; line-height: 25px}
+img.portrait{ height: auto; width: 100%; max-height: 500px;  background-color: rgb(30,30,30)}
+img.downloadimg{display: inline-block; height: 20px; width: 20px; float: right;  z-index: 3;  padding: 5px}
+img.dropdownimg{display: inline-block; height: 5px; width: 10px; padding-bottom: 5px; padding-left: 4px}
+#holdings{display: block; float: none; margin-left: 40px; width: 800px;}
+.servicewrapper{width: 80%; margin: 2%; box-shadow: 2px 2px 4px black; background-color: rgba(30, 34, 45,0.7);}
+.servicegroup{margin: 0; width: 33.3%; display: inline-block; font-size: 0.75em; }
+.serviceul{list-style-type: none; color: white;  padding: 10px; margin: 0; height: 200px; display: inline-block;   width: 100%; vertical-align: top}
+.serviceli{font-weight: normal; font-size: 1.2em; margin-left: 5px; margin-top: 5px; margin-bottom: 5px; }
+.contactl{float: right; margin: 20px; height: auto; width: 40%; margin-right: 4%; max-width: 500px;background-image: url(../images/sidebg.jpg); background-color: rgb(67, 70, 81); background-size: cover; display: inline-block; vertical-align: top; box-shadow: 2px 2px 4px black}
+.contact{float: right; position: absolute; height: 100%; width: 40%; background-color: rgb(67, 70, 81); background-size: cover; display: none; vertical-align: top; text-align: center}
+.watchlist{float: right; position: absolute; height: 100%; width: 40%; background-color: rgb(67, 70, 81); background-size: cover; display: none; vertical-align: top; text-align: center}
+.watchlistl{float: right; margin-top: 2%; margin-right: 4%; height: auto;  width: 520px; background-color: rgb(30, 34, 45); background-size: cover; display: inline-block; vertical-align: top; box-shadow: 2px 2px 4px black}
+.watchlistheader{background-color: rgb(30, 34, 45); width: 100%; height: 60px; margin: 0; line-height: 60px; text-align: center; color: white}
+.metrics{display: inline-block; text-align: right; margin-right: 1%}
+.watchul{width: 100%; height: 100%;  font-size:0.8em; text-align: center; list-style-type: none; margin: 0; padding: 0}
+.watchli{padding: 0; border-radius: 0; margin: auto; width: 100%; text-align: right; height: auto; background-color: rgb(30, 34, 45); color: white;  line-height: 40px; font-weight: bold; font-size: 1.2em; z-index: 2; border-bottom-style: solid; border-color: rgb(120, 120, 120); border-width: 1px;}
+.maintext2{padding-left: 40px; letter-spacing: 0.75px;  line-height: 25px; font-size: 1.3em; width: 40%; max-width: 800px; margin: 0; display: inline-block; overflow-y: hidden}
+.symbol{float: left; text-align: center; background-color: rgb(10, 10, 10);height: 100%; width: 80px; margin: 0; padding: 0; overflow: hidden; border-radius: 0; z-index: 1;   color: white; border-width: 0 }
+.gain{ color: rgb(50, 168, 82); text-shadow: 1px 1px 1px black;  padding: 5px; border-radius: 4px}
+.open{ height: 100%; padding: 5px; color: white; text-shadow: 1px 1px 4px black; border-radius: 4px; font-size: 1em; font-weight: normal;  }
+.close{font-weight: bold}
+form{text-align: left; color: white; font-size: 1.6em; text-shadow: 1px 1px 2px black; margin-left: 10%; padding: 0; margin-right: 10%; margin-top: 50px}
+.name{height: 28px; width: 100%; font-size: 1.1em; border-radius: 4px; border-style: none; box-shadow: 2px 2px 4px}
+.email1{height: 28px; width: 100%; font-size: 1.1em; border-radius: 4px; border-style: none; box-shadow: 2px 2px 4px}
+.phone{height: 28px; width: 100%; font-size: 1.1em; border-radius: 4px; border-style: none; box-shadow: 2px 2px 4px}
+.business{height: 28px; width: 100%; font-size: 1.1em; border-radius: 4px; border-style: none; box-shadow: 2px 2px 4px}
+textarea{border-radius: 8px; border-style: none; box-shadow: 2px 2px 4px; font-family: 'Saira', sans-serif; width: 60%}
+label{font-weight: normal}
+.send{width: 120px; height: 40px; font-weight: bold; box-shadow: 2px 2px 4px black; border-radius: 8px; border-style: none;}
+.clear{width: 120px; height: 40px; font-weight: bold; box-shadow: 2px 2px 4px black; border-radius: 8px; border-style: none;}
+.send:hover{background-color: rgb(208,235,244)}
+.clear:hover{background-color: rgb(208,235,244)}
+.mobilewrapper{display: none}
+.watchlistbox{width: 50%; margin: 0; display: inline-block; margin: 2%; background-color: rgba(30, 34, 45,0.7); box-shadow: 2px 2px 4px black}
+
+.pricing{padding: 10px; margin: 0; color: white; font-size: 1.2em; letter-spacing: 0.75px;  line-height: 25px;}
+.contactbox{width: 50%; margin: 0; display: inline-block; margin: 2%; background-color: rgba(30, 34, 45,0.7); box-shadow: 2px 2px 4px black}
+.socialimg{width: 150px; height: 150px; margin-left: 2%; margin-right: 2%}
+.socialset{margin-top: 4%; height: 200px; width: auto}
+.coremain::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.coremain::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.coremain::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+
+
+
+@media screen and (min-width: 940px) and (max-width: 1310px)
+{.coremain{width: 50%; height: 100%; overflow-y: scroll; overflow-x: hidden}
+    .core{min-height: 1350px}
+    .socialset{text-align: center}
+    .mainbox{width: 95%; }
+    .coremain2{height: 100%}
+    #holdings{display: none}
+    .contactbox{width: 95%}
+      .mobilewrapper{display: block; width: 340px; height: 500px; margin: auto; margin-top: 50px; background-color: rgba(0,0,0,0.7);  box-shadow: 2px 2px 4px black}
+    .servicewrapper{width: 95%; display: block; margin: 2%; padding: 0}
+    .serviceul{display: block; width: 100%; height: auto}
+    .serviceli{margin: 0; padding: 4px}
+    .servicegroup{height: auto; width: 95%}
+      .symbol{ border-bottom-right-radius: 0; border-bottom-left-radius: 5px;}
+    .watchlistbox{width: 95%}
+     img.mobileportrait{height: auto; width: 100%; margin: 0; display: inline-block}
+     .mobiletext{display: inline-block;  vertical-align: top; line-height: normal; height: 100%;width: auto; text-align: center; padding: 10px; font-size: 1.4em; font-weight: bold; color: white; margin-top: 0}
+    .mainboxcover{width: 100%}
+    .watchlist{height: auto; bottom: 0; width: 100%; margin: 0;  z-index: 3; overflow: hidden; background-image: url(../images/sidebg.jpg); background-size: cover; display: block; }
+    .watchlistl{display: none}
+    .contactl{display: none}
+    .contact{height: auto; bottom: 0; width: 100%; margin: 0; z-index: 3; overflow: hidden; background-image: url(../images/sidebg.jpg); background-size: cover; display: block; }
+    .maintext2{width: 80%; margin-bottom: 20px}
+    img.portrait{display: none}
+    .imgwrapper{display: none}
+    .coreside{width: 100%}
+    .sidebox{width: 50%}
+    .maintext{width: 80%; padding: 20px; font-size: 1.2em}
+    .maintitle{padding-top: 40px; margin-left: 8%}
+    .innertitle{padding-top: 20px; margin: 0}
+html, body{width: 100%; height: 100%; min-height: 1080px; margin: 0; padding: 0; font-family: 'Saira', sans-serif}}
+
+@media screen and (max-width: 939px)
+{.coremain{width: 100%; display: block; height: auto; }
+    .coremain2{height: 100%; }
+       .core{min-height: 1350px}
+    .servicewrapper{width: 95%; display: block; margin: 2%; padding: 0}
+     .socialset{text-align: center}
+    .watchlistl{display: none}
+    .pricing{font-size: 1em}
+    .pricehead{font-size: 1.2em}
+    #holdings{display: none}
+    .mobilewrapper{display: block; width: 340px; height: 500px; margin: auto; margin-top: 50px; background-color: rgba(0,0,0,0.7);  box-shadow: 2px 2px 4px black}
+    .servicegroup{width: 95%}
+    .contactbox{width: 95%; }
+    .serviceul{height: 100px; font-size: 1em}
+    .herohead{font-size: 3em}
+    .socialimg{width: 100px; height: 100px; margin-left: 2%; margin-right: 2%}
+    .symbol{ border-bottom-right-radius: 0; border-bottom-left-radius: 5px;}
+    .watchlistbox{width: 95%;}
+    .mainbox{width: 95%; height: auto}
+    .mainboxcover{height: auto; width: 95%}
+    .watchli{width: 85%}
+    .mobiletext{display: inline-block;  vertical-align: top; line-height: normal; height: 100%;width: auto; text-align: center; padding: 10px; font-size: 1.4em; font-weight: bold; color: white; margin-top: 0}
+    .contactl{display: none}
+    img.mobileportrait{height: auto; width: 100%; margin: 0; display: inline-block}
+    .contact{height: auto; bottom: 0; width: 100%; margin: 0; z-index: 3; overflow: hidden; background-image: url(../images/sidebg.jpg); background-size: cover; display: block; }
+    .watchlist{height: auto; bottom: 0; width: 100%; margin: 0; z-index: 3; overflow: hidden; background-color: rgb(30, 34, 45); background-size: cover; display: block; }
+    img.portrait{display: inline-block}
+    .maintext2{width: 80%; margin-bottom: 20px}
+    .imgwrapper{display: none; vertical-align: bottom; bottom: 0; height: auto; float: right}
+    .coreside{width: 100%}
+    .sidebox{width: 100%; display: block}
+    .maintext{width: 90%; padding: 20px;  font-size: 1em}
+    .maintitle{padding-top: 40px; font-size: 2.6em; width: auto; margin-left: 20px; }
+    .innertitle{padding-top: 20px; margin-top: 8%;  }
+    .pastli{width: 75%}
+    footer{font-size: 1em}
+    a.menu
+{width: 40px;
+    display: block;
+height: 40px;
+background-image: url(../images/menu.png); background-size: 100%; float: right}
+     a.menu:hover{background-image: url(../images/menuhover.png)}
+     nav .navul, nav:active .navul { 
+color: black;
+        font-size: 1.2em;display: none;position: absolute;padding: 20px;background: white;border: 2px solid lightskyblue;right: 10px;top: 30px;height: auto;width: 260px;-moz-border-radius:4px 0 4px 4px; -webkit-border-radius:4px 0 4px 4px;border-radius: 4px 0 4px 4px;}
+        nav:hover .navul {
+
+		display: block;
+
+	}
+        .navli{display: block;}
+    .navlix{display: block}
+    a.active{color: dodgerblue; font-size: 1em}
+        a.active-dropdown1{color: dodgerblue; font-size: 1em}
+    a.active-dropdown2{color: dodgerblue; font-size: 1em}
+    a.inactive {color: black; font-size: 1em}
+    a.inactive-dropdown1  {color: black; font-size: 1em}
+    a.inactive-dropdown1:hover{text-shadow: 1px 1px 1px   black}
+    a.inactive-dropdown2 {color: black; font-size: 1em}
+    a.inactive-dropdown2:hover{text-shadow: 1px 1px 1px   black}
+    a.droplink1{display:none; color: rgba(0,0,0,0)}
+    a.droplink2{display:none; color: rgba(0,0,0,0)}
+       a.droplink1s{display: block;}
+    a.droplink2s{display: block}
+    a.active:hover{font-weight: bold}
+    a.inactive:hover{font-weight: bold}
+    .dropdown{display: none; height: 0}
+    .droplink{display: none}
+html, body{width: 100%; height: 100%; min-height: 1080px; margin: 0; padding: 0; font-family: 'Saira', sans-serif}}
