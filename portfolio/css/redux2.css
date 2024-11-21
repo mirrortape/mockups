@@ -1,0 +1,244 @@
+html, body{width: 100%; height: 100%; min-height: 1180px;  margin: 0; padding: 0; font-family: 'arial', sans-serif; background-image: url(../images/spec2.png); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-color: black}
+p{letter-spacing: 0.75px;  line-height: 25px;}
+nav{display: }
+.largenav{display: block; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 0px 2px 2px black;  }
+.smallnav{display: none; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+    .navul{display: inline-block; width: 100%; margin: 0; padding-left: 0; padding-top: 0; font-weight: lighter}
+.navli{display: inline;  margin-left: 0px;  margin-top: 0; margin-bottom: 0; line-height: 50px; width: 100%}
+.navtech{display: inline-block; margin-left: 35px; margin-right: 5px; margin-top: 0; margin-bottom: 0; line-height: 50px;; font-size: 1.6em; width: auto; list-style-type:none; color: black; font-weight: normal}
+.navbox{width: 100%; display: block; position: fixed; margin: 0; height: 100px }
+.navadobe{display: inline-block; margin-left: 35px; margin-right: 5px; margin-top: 0; margin-bottom: 0; line-height: 50px;; font-size: 1.6em; width: auto; list-style-type:none; color: black; font-weight: normal}
+.navdesign{display: inline-block; margin-left: 35px; margin-right: 5px; margin-top: 0; margin-bottom: 0; line-height: 50px;; font-size: 1.6em; width: auto; list-style-type:none; color: black; font-weight: normal}
+a.inactive{text-decoration: none; font-size: 1.6em; color: white; margin-left: 20px; margin-right: 0px;}
+a.inactive:hover{text-shadow: 1px 1px 1px  white; }
+a.dropdown{text-decoration: none; font-size: 1.6em; color: white;  margin-left: 20px; margin-right: 0px;}
+a.dropdown:hover{text-decoration: none; font-size: 1.26m; color: white; text-shadow: 1px 1px 1px  white;}
+a.dropdown-active{text-decoration: none; font-size: 1.6em; color: rgb(255, 187, 0);  margin-left: 20px; margin-right: 0px;}
+a.dropdown-active:hover{text-decoration: none; font-size: 1.26m; color: rgb(255, 187, 0); text-shadow: 1px 1px 1px  rgb(255, 187, 0);}
+.smartmenu{width: 100%; background-color: rgb(255, 187, 0); height: 50px; margin-top: 50px; position: fixed; box-shadow: 0px 2px 2px black; }
+.techdrop{background-image: url(../images/dropdown.png); background-size: contain; background-repeat: no-repeat; height: 15px; width: 20px; margin-left: 4px; display: inline-block}
+.adobedrop{background-image: url(../images/dropdown.png); background-size: contain; background-repeat: no-repeat; height: 15px; width: 20px; margin-left: 4px; display: inline-block}
+.designdrop{background-image: url(../images/dropdown.png); background-size: contain; background-repeat: no-repeat; height: 15px; width: 20px; margin-left: 4px; display: inline-block}
+ul.smartlist{display: block; margin: 0; height: 50px; padding: 0; color: black}
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.closeicon{display: none; width: 0; height: 0; margin: 0; width: auto; padding-top: 0; line-height: 45px; padding-left: 8px; font-style: normal; background: none}
+
+
+a.droplink{font-size: 1em; text-decoration: none; display: inline-block; color: black; }
+a.droplink:hover{text-shadow: 1px 1px 1px   black;}
+a.droplinks{font-size: 1em; text-decoration: none; display: inline-block; color: white; padding-left: 20px }
+a.droplinks:hover{text-shadow: 1px 1px 1px   white;}
+
+a.active{text-decoration: none; font-size: 1.6em; color: rgb(255, 187, 0); margin-left: 20px}
+a.active:hover{text-shadow: 1px 1px 1px  rgb(255, 187, 0);}
+
+a.tslink{color: black; text-decoration: none}
+a.tslink:hover{color: black; font-weight: bold}
+.header{ margin: 0; padding-top: 50px; line-height: 60px; text-align: center; font-size: 6.8em; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0); text-shadow: 4px 4px 2px black }
+.slogan{text-align: center; font-size: 2em; color: white; font-weight: bold; text-shadow: 4px 4px 2px black}
+
+h2{ padding-left: 60px; margin: 0; padding-top: 45px; line-height: 40px; text-align: left; font-size: 3em; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0); text-shadow: 4px 4px 2px black}
+h3{ padding-left: 00px; margin: 0; padding-top: 45px; line-height: 40px; text-align: left; font-size: 2em; font-family: arial, sans-serif;color:white; text-shadow: 4px 4px 2px black}
+
+
+ul.homelist{text-align: left; color: rgb(255, 187, 0); font-size: 1.4em; margin-left: 0px; padding-left: 0; padding-bottom: 20px; list-style-type: none; margin-top: 8px; padding-right: 20px; margin-bottom: 0}
+.sidelist{float: right; padding-right: 0px; padding-bottom: 0; padding-top: 0px; overflow: hidden; height: auto }
+.myexperience{display: inline-block; width: 60%; float: left}
+img.skillimg{width: 100%; height: 100%}
+img.portrait{float: right;width: auto; height: auto; overflow: hidden; z-index: 1; padding-left: 20px;}
+ img.portraitsm{display: none}
+h4{color: white; text-align: center; font-size: 2em; margin-top: 40px; margin-bottom: 0;}
+h5{font-size: 1.8em; color: white; text-align: left; margin-top: 10px; margin-bottom: 0;  margin-left: 60px}
+h6{font-size: 1.8em; margin-top: 30px; text-align: left; margin-left: 20px; margin-bottom:0 ; padding-top: 20px}
+.showofftext{color: white; text-align: left; padding: 10px; }
+.showoff{background-color: rgba(30,30,30,1); width: 50%; margin-left: 60px; max-width: 520px }
+footer{bottom: 0; position: fixed; height: 40px; background-color: rgba(5,5,5,1); width: 100%; margin: 0 ; padding: 5px; text-align: center; line-height: 40px; color: white; font-size: 1.4em; font-weight: normal}
+a.menu
+{width: 40px;
+    display: none;
+height: 40px;
+background-image: url(../images/menu.png); background-size: 100%; float: right;}
+.coretext{text-align: left; color: white; font-size: 1.4em; margin-left: 60px; margin-right: 60px}
+.homecore{text-align: center;  width: 1200px; margin: auto; display: block; background-color: rgba(5,5,5,1); height: auto; min-height: 327px; box-shadow: 6px 6px 6px black; margin-bottom: 60px}
+.homecore2{text-align: center;  width: 1200px; margin: auto; display: block; height: 600px; box-shadow: 6px 6px 6px black; margin-bottom: 60px}
+img.dropdownimg{display: inline-block; height: 8px; width: 16px; padding-bottom: 2px; padding-left: 4px}
+.maintitlesmall{width: auto; text-align: left; margin: 0; display: inline-block;  color: rgb(255, 187, 0); font-family: 'Fugaz One', cursive; font-size: 2em; line-height: 35px; padding-top: 10px; margin-left: 15px; font-weight: normal; font-style: normal }
+.description{background-color: rgba(0,0,0,0.6); color: white; width: 360px; padding: 20px; text-align: left; display: block; margin: auto; border-radius: 2em; border-color: rgb(255, 208, 66); border-style: outset; border-width: 2px;
+}
+.techskillbox
+{display: inline-block; width: 33.33%; height: 327px; text-align: center; vertical-align: top}
+.techskillinner{margin: auto;  width: 327px; height: 100%; background-image: url(../images/minibg.png); background-size: cover; box-shadow: 6px 6px 6px black; text-align: center; border-bottom-style: outset; border-color: black; border-width: 1px}
+.adobeskillbox
+{display: inline-block; width: 24%; height: 327px; text-align: center; vertical-align: top; margin: 0}
+.adobeskillinner{margin: auto;  width: 100%; height: 100%; background-image: url(../images/minibg.png); background-size: cover; box-shadow: 6px 6px 6px black; text-align: center; border-bottom-style: outset; border-color: black; border-width: 1px}
+.miniul{padding: 0; padding-top: 20px; list-style-type: none; text-align: left; margin: auto; width: 240px}
+.minili{padding-top: 10px; padding-bottom: 10px; font-size: 1.2em; font-weight: bold}
+
+
+
+
+
+@media screen and (min-width: 1350px) and (max-width: 1650px){
+    footer{bottom: 0; position: fixed; height: 40px; background-color: rgba(5,5,5,1); width: 100%; margin: 0 ; padding: 5px; text-align: center; line-height: 40px; color: white; font-size: 1.4em; font-weight: normal}
+    .largenav{display: block; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 0px 2px 2px black;  }
+    .smallnav{display: none; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+   
+    .navul{display: inline-block; width: 100%; margin: 0; padding-left: 0; padding-top: 0; font-weight: lighter}
+.navli{display: inline;  margin-left: 0px;  margin-top: 0; margin-bottom: 0; line-height: 50px; width: 100%}
+    .closeicon{display: none; width: 0; height: 0; margin: 0; width: auto; padding-top: 0; line-height: 45px; padding-left: 8px; font-style: normal; float: inherit; background: none}
+    .maintitlesmall{ width: auto; text-align: left; margin: 0; display: inline-block;  color: rgb(255, 187, 0); font-family: 'Fugaz One', cursive; font-size: 2em; line-height: 35px; padding-top: 10px; margin-left: 15px; font-weight: normal; font-style: normal }
+   
+
+
+
+@media screen and (min-width: 1080px) and (max-width: 1350px)
+{.maintitlesmall{ width: auto; text-align: left; margin: 0; display: inline-block;  color: rgb(255, 187, 0); font-family: 'Fugaz One', cursive; font-size: 2em; line-height: 35px; padding-top: 10px; margin-left: 15px; font-weight: normal; font-style: normal }
+    html, body{background-attachment: scroll}
+  
+    footer{bottom: 0; position: fixed; height: 40px; background-color: rgba(5,5,5,1); width: 100%; margin: 0 ; padding: 5px; text-align: center; line-height: 40px; color: white; font-size: 1.4em; font-weight: normal}
+    .homecore{width: 100%; height: auto; margin-bottom: 0}
+    .homecore2{width: 100%; height: auto; background-color: none; margin-bottom: 0;}
+     .largenav{display: block; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+    .smallnav{display: none; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+    .navul{display: block; width: 100%; margin: 0; padding-left: 0; padding-top: 0; font-weight: lighter}
+.navli{display: inline;  margin-left: 15px;  margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%}
+    .closeicon{display: none; margin: 0; width: 0; height: 0; padding-left: 8px; font-style: normal; background: none}
+    img.skillimg{width: 100%; height: auto}   
+     img.portraitsm{display: none}
+    img.portrait{float: right;width: auto; height: auto; overflow: hidden; z-index: 1; padding-left: 20px;}
+    .sidelist{ padding-right: 40px; padding-bottom: 0; padding-top: 0px; overflow: hidden; }
+.myexperience{display: block; width: 60%; float: left}
+
+}
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 1079px){html, body{background-attachment: scroll}
+  a.menu
+{width: 50px;
+display: block;
+     z-index: 1;
+    margin-top: 0px;
+    margin-right: 10px;
+height: 50px;
+    
+background-image: url(../images/menu.png); background-size: 100%; float: right}
+     a.menu:hover{background-image: url(../images/menuhover.png)}
+    .navbox{display: block}
+    .smartmenu{display: none}
+    ul.smartlist{display: none}
+    .showofftext{color: white; text-align: left; padding: 10px; }
+.showoff{background-color: rgba(30,30,30,1); width: 100%; margin-left: 0  }
+    .description{width: 80%; margin-top: 40px;}
+    footer{bottom: 0; position: fixed; height: 40px; background-color: rgba(5,5,5,1); width: 100%; margin: 0 ; padding: 5px; text-align: center; line-height: 40px; color: white; font-size: 1em; font-weight: normal}
+    .homecore{width: 100%; height: auto; margin-bottom: 0;}
+    .homecore2{width: 100%; height: auto; background-color: none; margin-bottom: 0;}
+     .largenav{display: block; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+    .smallnav{display: inline-block; width:240px; height: auto; margin: 0; position: absolute; right: 0; vertical-align: top; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black; float: right;  z-index: 2  }
+    .navul{display: none; width: 100%; margin: 0; padding-left: 0; padding-top: 0; }
+    .navul2{display: block; width: 240px; margin: 0; padding: 5px; padding-top: 10px; float: right; font-weight: lighter; background-color: rgb(5,5,5)}
+.navli{display: block; color: black;  margin-left: 15px;  margin-top: 0; margin-bottom: 0; line-height: 45px; width: 100%}
+    .navli2{display: block; color: black;  margin-left: 15px;  margin-top: 0; margin-bottom: 0; line-height: 45px; width: 100%}
+    .navtech2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%; list-style-type: none;}
+.navadobe2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%;  list-style-type: none;}
+.navdesign2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%;  list-style-type: none;}
+    .maintitlesmall{display: inline-block; margin: 0; font-size: 2.4em; width: auto; padding-top: 15px; line-height: 45px; padding-left: 8px; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0);}
+    img.skillimg{width: 100%; height: auto}   
+    img.portrait{float: right; width: 200px; height: auto; overflow: hidden; z-index: 1; vertical-align: middle; padding-top: 45px; padding-right: 20px; padding-left: 10px}
+    img.portraitsm{display: none}
+    ul.homelist{padding-left: 20px;}
+    .sidelist{ padding-right: 40px; padding-bottom: 0; padding-top: 0px; overflow:visible; float: none }
+.myexperience{display: block; width:100%; float: none }
+    .header{ margin: 0; padding-top: 50px; line-height: 60px; text-align: center; font-size: 4.2em; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0); text-shadow: 4px 4px 2px black }
+    .slogan{text-align: center; font-size: 1.2em; color: white; font-weight: bold; text-shadow: 4px 4px 2px black}
+   
+    h2{font-size: 2.2em; padding-left: 20px}
+    .coretext{margin-left: 20px}
+    h3{padding-left: 20px;}
+    ul.homelist{margin-left: 0}
+.closeicon{display: inline-block; float: right; width: 20px; height: 20px; margin-bottom: 20px; text-align: right; font-style: normal; background-image: url(../images/closeicon.png); background-size: contain; background-repeat: no-repeat}
+     .techskillbox
+{display: block; width: 100%; height: auto; text-align: center; vertical-align: top; padding: 0}
+.techskillinner{margin: auto;  width: 100%; height: 100%; background-color: rgb(255, 187, 0); box-shadow: 6px 6px 6px black; }
+     .adobeskillbox
+{display: block; width: 100%; height: auto; text-align: center; vertical-align: top; padding: 0}
+.adobeskillinner{margin: auto;  width: 100%; height: 100%; background-color: rgb(255, 187, 0); box-shadow: 6px 6px 6px black; }
+    .miniul{padding: 0; padding-top: 20px; list-style-type: none; text-align: center; margin: auto; width:100%}
+.minili{padding-top: 20px; padding-bottom: 20px; font-size: 1.2em; display: inline-block; width: auto; padding-left: 20px; padding-right: 20px; font-weight: bold}
+
+}
+
+
+
+
+@media screen and (max-width: 429px){
+    a.menu
+{width: 50px;
+    display: block;
+   margin-right: 10px;
+    margin-top: 0 ;
+     z-index: 1;
+   
+height: 50px;
+background-image: url(../images/menu.png); background-size: 100%; float: right}
+     a.menu:hover{background-image: url(../images/menuhover.png)}
+   
+     .largenav{display: block; width:100%; height: 50px; margin: 0; position: fixed; vertical-align: top;  z-index: 2; background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black;  }
+    .smallnav{display: none; width:240px; height: auto; margin: 0;  position: absolute; right: 0;  vertical-align: top;  background-color: rgba(5,5,5,1); box-shadow: 6px 6px 6px black; float: right; z-index: 2  }
+    .navul{display: none; width: 100%; margin: 0; padding-left: 0; padding-top: 0; }
+.navul2{display: block; width: 240px; margin: 0; padding: 5px; padding-top: 10px; float: right;  font-weight: lighter; background-color: rgb(5,5,5)}
+.navli{display: block; color: black;  margin-left: 15px;  margin-top: 0; padding-right: 0; line-height: 45px; width: auto}
+    .navli2{display: block; color: black;  margin-left: 15px;  margin-top: 0; padding-right: 0; line-height: 45px; width: auto}
+    .navtech2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%; list-style-type: none;}
+.navadobe2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%;  list-style-type: none;}
+.navdesign2{display: block; margin-left: 15px; margin-top: 0; margin-bottom: 0; line-height: 35px; width: 100%;  list-style-type: none;}
+    .description{width: 80%; margin-top: 40px;}
+    .header{ margin: 0; padding-top: 50px; line-height: 60px; text-align: center; font-size: 3em; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0); text-shadow: 4px 4px 2px black }
+    h2{font-size: 1.8em; padding-left: 10px}
+    .showoff{margin: auto; display: block; width: 80%;}
+    .coretext{font-size: 1em; margin-left: 10px}
+    .maintitlesmall{display: inline-block; margin: 0; font-size: 2.4em; width: auto; padding-top: 15px; line-height: 45px; padding-left: 8px; font-family: 'Fugaz One', cursive; color:rgb(255, 187, 0);}
+    h3{font-size: 1.6em; padding-left: 10px}
+    .closeicon{display: block; float: right; width: 20px; padding: 0; z-index: 9999; height: 20px; margin-bottom: 20px; text-align: right; font-style: normal; background-image: url(../images/closeicon.png); background-size: contain; background-repeat: no-repeat}
+    ul.homelist{font-size: 1em; margin-left: 0; padding-left: 20px;}
+    .slogan{font-size: 1em}
+    footer{font-size: 0.7em}
+     .homecore{width: 100%; height: auto; margin-bottom: 0;}
+    .homecore2{width: 100%; height: auto; background-color: none; margin-bottom: 0;}
+     img.portrait{float: right; display: none; width: 150px; height: auto; overflow: hidden; z-index: 1; vertical-align: middle; padding-top: 45px; padding-right: 20px; padding-left: 10px}
+    img.portraitsm{ width: 100%; height: auto; display: block; overflow: hidden; z-index: 1; 
+    }
+ .sidelist{ padding-right: 0px; padding-bottom: 0; padding-top: 25px; overflow:visible; float: none }
+.myexperience{display: block; width:100%; float: none }
+        .techskillbox
+{display: block; width: 100%; height: auto; text-align: center; vertical-align: top; padding: 0}
+.techskillinner{margin: auto;  width: 100%; height: 100%; background-color: rgb(255, 187, 0); box-shadow: 6px 6px 6px black; }
+     .adobeskillbox
+{display: block; width: 100%; height: auto; text-align: center; vertical-align: top; padding: 0}
+.adobeskillinner{margin: auto;  width: 100%; height: 100%; background-color: rgb(255, 187, 0); box-shadow: 6px 6px 6px black; }
+    .miniul{padding: 0; padding-top: 20px; list-style-type: none; text-align: center; margin: auto; width:100%}
+.minili{padding-top: 20px; padding-bottom: 20px; font-size: 1.2em; display: inline-block; width: auto; padding-left: 20px; padding-right: 20px; font-weight: bold}
+
+
+
+
+}
