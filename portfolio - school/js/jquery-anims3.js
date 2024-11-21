@@ -1,13 +1,13 @@
 $(document).ready(function() { 
      $(this).scrollTop(0);
     $('.navul2,.navli2,.navtech2,.navadobe2,.navdesign2').hide(0);
-    $('.homecore').hide(0).delay(600).fadeIn(900);
-    $('#homebox2').hide(0).delay(900).fadeIn(900);
- $('#homebox3').hide(0).delay(900).fadeIn(900);
-    $('#homebox4').hide(0).delay(900).fadeIn(900);
-    $('#homebox5').hide(0).delay(900).fadeIn(900);
-    $('.header').hide(0).delay(300).fadeIn(600);
-$('.slogan').hide(0).delay(300).fadeIn(600);
+    $('.homecore').hide(0).delay(00).fadeIn(900);
+    $('#homebox2').hide(0).delay(00).fadeIn(900);
+ $('#homebox3').hide(0).delay(00).fadeIn(900);
+    $('#homebox4').hide(0).delay(00).fadeIn(900);
+    $('#homebox5').hide(0).delay(00).fadeIn(900);
+    $('.header').hide(0).delay(00).fadeIn(600);
+$('.slogan').hide(0).delay(00).fadeIn(600);
 $('.smartmenu,.navtech').hide(0);
 $('#techdrop').mouseenter(function(){
     $('.smartmenu').slideDown(200);
